@@ -23,7 +23,7 @@ You will be prompted to enter the destination folder and select the folders you 
 Alternatively, you can use `npx` to run the CLI tool without installing it globally:
 
 ```sh
-npx scss-scaffolder-cli
+npx scss-cli
 ```
 
 ## Options ⚙️
