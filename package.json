@@ -20,10 +20,8 @@
         "scaffold"
     ],
     "scripts": {
-        "compile": "bun build ./src/index.ts --compile --outfile ./compiled/project-tagger",
-        "compile:windows": "bun build ./src/index.ts --compile --target=bun-windows-x64 --outfile ./compiled/project-tagger.exe",
-        "compile:linux": "bun build ./src/index.ts --compile --target=bun-linux-x64 --outfile ./compiled/project-tagger",
-        "compile:mac": "bun build ./src/index.ts --compile --target=bun-darwin-x64 --outfile ./compiled/project-tagger"
+        "build": "bun build ./src/index.ts --outfile ./dist/index.js --target node",
+        "compile": "bun build ./src/index.ts --compile --outfile ./compiled/scss-scaffolder-cli"
     },
     "author": "Maxiviper117",
     "license": "GPL-3.0-or-later",
