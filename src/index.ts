@@ -46,7 +46,7 @@ async function createStructure(
             }
         }
 
-        const mainFilePath = path.join(destination, "main.scss");
+        const mainFilePath = path.join(destination, "scaffold-main.scss");
         const imports = Object.keys(selectedStructure)
             .map((folder) => `@import '${folder}/*';`)
             .join("\n");
