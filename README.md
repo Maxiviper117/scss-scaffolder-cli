@@ -1,8 +1,8 @@
-# SCSS Scaffolder CLI
+# SCSS Scaffolder CLI ✨
 
 A CLI tool for scaffolding SCSS folder and files based on the 7/1 architecture pattern.
 
-## Installation
+## Installation 📦
 
 To install the CLI tool globally, run:
 
@@ -10,7 +10,7 @@ To install the CLI tool globally, run:
 npm install -g scss-scaffolder-cli
 ```
 
-## Usage
+## Usage 🚀
 
 To run the CLI tool, use the following command:
 
@@ -26,7 +26,7 @@ Alternatively, you can use `npx` to run the CLI tool without installing it globa
 npx scss-scaffolder-cli
 ```
 
-## Options
+## Options ⚙️
 
 - **destination**: The root folder for the SCSS structure (default: `./scss`).
 - **folders**: The folders to include in your SCSS structure. You can select from the following options:
@@ -38,7 +38,7 @@ npx scss-scaffolder-cli
   - `themes`
   - `vendors`
 
-## Example
+## Example 💡
 
 ```sh
 scss-cli
@@ -46,6 +46,30 @@ scss-cli
 
 Follow the prompts to configure your SCSS structure. The tool will create the selected folders and files in the specified destination.
 
-## License
+### Example Directory Structure
+
+```bash
+scss/
+├── scaffold-main.scss
+├── abstracts/
+│   ├── _variables.scss
+│   ├── _mixins.scss
+│   └── _functions.scss
+├── base/
+│   ├── _reset.scss
+│   └── _typography.scss
+├── components/
+│   ├── _buttons.scss
+│   └── _cards.scss
+├── layout/
+│   ├── _header.scss
+│   ├── _footer.scss
+│   └── _grid.scss
+├── pages/
+├── themes/
+└── vendors/
+```
+
+## License 📜
 
 This project is licensed under the GPL-3.0-or-later License.
