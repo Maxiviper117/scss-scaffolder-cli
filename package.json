@@ -1,6 +1,6 @@
 {
     "name": "scss-scaffolder-cli",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "CLI tool for scaffolding scss folder and files",
     "type": "module",
     "main": "dist/index.js",
@@ -20,7 +20,6 @@
         "scaffold"
     ],
     "scripts": {
-
         "compile": "bun build ./src/index.ts --compile --outfile ./compiled/project-tagger",
         "compile:windows": "bun build ./src/index.ts --compile --target=bun-windows-x64 --outfile ./compiled/project-tagger.exe",
         "compile:linux": "bun build ./src/index.ts --compile --target=bun-linux-x64 --outfile ./compiled/project-tagger",
